@@ -154,10 +154,10 @@ $(document).ready(function(e) {
                 <div class="section-body">
                    
                    <div class="form-group">
-                    <label class="col-md-3 control-label">Category :-</label>
+                    <label class="col-md-3 control-label">Merk Sepatu :-</label>
                     <div class="col-md-6">
                       <select name="cat_id" id="cat_id" class="select2" required>
-                        <option value="">--Select Category--</option>
+                        <option value="">--Pilih Merk Sepatu--</option>
           							<?php
           									while($cat_row=mysqli_fetch_array($cat_result))
           									{
@@ -170,16 +170,16 @@ $(document).ready(function(e) {
                     </div>
                   </div>
 				    <div class="form-group">
-                    <label class="col-md-3 control-label">Select Sub Category :-</label>
+                    <label class="col-md-3 control-label">Jenis Sepatu :-</label>
                     <div class="col-md-6">
                       <select name="sub_cat_id" id="sub_cat_id" class="select2">
-                        <option value="">--Select Sub Category--</option>
+                        <option value="">--Pilih Jenis Sepatu--</option>
                         
                       </select>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Recipe Type :-</label>
+                    <label class="col-md-3 control-label">Jenis Pesanan :-</label>
                     <div class="col-md-6">                       
                       <select name="recipe_type" id="recipe_type" style="width:280px; height:25px;" class="select2" required>
                              <option value="image">Image</option>
@@ -188,19 +188,19 @@ $(document).ready(function(e) {
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Recipe Name :-</label>
+                    <label class="col-md-3 control-label">Nama Pemesan Sepatu :-</label>
                     <div class="col-md-6">
                       <input type="text" name="recipe_name" id="recipe_name" value="" class="form-control" required>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Recipe Time :-</label>
+                    <label class="col-md-3 control-label">Waktu Pemesanan :-</label>
                     <div class="col-md-6">
                       <input type="text" name="recipe_time" id="recipe_time" value="" class="form-control" required>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Recipe Ingredients :-</label>
+                    <label class="col-md-3 control-label">Catatan Pemesanan :-</label>
                     <div class="col-md-6">
                       
                       <textarea name="recipe_ingredients" id="recipe_ingredients" class="form-control"></textarea>
@@ -209,7 +209,7 @@ $(document).ready(function(e) {
                   </div>
                   
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Recipe Direction :-</label>
+                    <label class="col-md-3 control-label">Alamat Pemesan:-</label>
                     <div class="col-md-6">                    
                       <textarea name="recipe_direction" id="recipe_direction" class="form-control"></textarea>
 
