@@ -182,8 +182,8 @@ $(document).ready(function(e) {
                     <label class="col-md-3 control-label">Jenis Pesanan :-</label>
                     <div class="col-md-6">                       
                       <select name="recipe_type" id="recipe_type" style="width:280px; height:25px;" class="select2" required>
-                             <option value="image">Image</option>
-                             <option value="video">Video</option>
+                             <option value="image">Regular</option>
+                             <option value="video">Cepat</option>
                       </select>
                     </div>
                   </div>
