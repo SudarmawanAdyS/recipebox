@@ -53,7 +53,7 @@
         </li>
         
         <li <?php if($currentFile=="manage_recipe.php" or $currentFile=="add_recipe.php" or $currentFile=="edit_recipe.php"){?>class="active"<?php }?>> <a href="manage_recipe.php">
-          <div class="icon"> <i class="fa fa-coffee" aria-hidden="true"></i> </div>
+          <div class="icon"> <i class="fa fa-sitemap" aria-hidden="true"></i> </div>
           <div class="title">Pesanan</div>
           </a> 
         </li>
