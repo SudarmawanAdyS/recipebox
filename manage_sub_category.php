@@ -61,12 +61,12 @@
         <div class="card mrg_bottom">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title">Manage Sub Categories</div>
+              <div class="page_title">Semua Tipe Sepatu</div>
             </div>
             <div class="col-md-7 col-xs-12">
               <div class="search_list">
                 
-                <div class="add_btn_primary"> <a href="add_sub_category.php?add=yes">Add Sub Category</a> </div>
+                <div class="add_btn_primary"> <a href="add_sub_category.php?add=yes">Tambah Tipe Sepatu</a> </div>
               </div>
             </div>
           </div>
