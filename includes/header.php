@@ -38,40 +38,40 @@
       <ul class="sidebar-nav">
         <li <?php if($currentFile=="home.php"){?>class="active"<?php }?>> <a href="home.php">
           <div class="icon"> <i class="fa fa-dashboard" aria-hidden="true"></i> </div>
-          <div class="title">Dashboard</div>
+          <div class="title">Menu Utama</div>
           </a> 
         </li>
         <li <?php if($currentFile=="manage_category.php" or $currentFile=="add_category.php"){?>class="active"<?php }?>> <a href="manage_category.php">
           <div class="icon"> <i class="fa fa-sitemap" aria-hidden="true"></i> </div>
-          <div class="title">Categories</div>
+          <div class="title">Merk Sepatu</div>
           </a> 
         </li>
         <li <?php if($currentFile=="manage_sub_category.php" or $currentFile=="add_sub_category.php"){?>class="active"<?php }?>> <a href="manage_sub_category.php">
           <div class="icon"> <i class="fa fa-sitemap" aria-hidden="true"></i> </div>
-          <div class="title">Sub Cat</div>
+          <div class="title">Jenis Sepatu</div>
           </a> 
         </li>
         
         <li <?php if($currentFile=="manage_recipe.php" or $currentFile=="add_recipe.php" or $currentFile=="edit_recipe.php"){?>class="active"<?php }?>> <a href="manage_recipe.php">
           <div class="icon"> <i class="fa fa-coffee" aria-hidden="true"></i> </div>
-          <div class="title">Recipe</div>
+          <div class="title">Pesanan</div>
           </a> 
         </li>
 		
          <li <?php if($currentFile=="manage_users.php" or $currentFile=="add_user.php"){?>class="active"<?php }?>> <a href="manage_users.php">
           <div class="icon"> <i class="fa fa-users" aria-hidden="true"></i> </div>
-          <div class="title">Users</div>
+          <div class="title">Pengguna</div>
           </a> 
         </li>
         <li <?php if($currentFile=="send_notification.php"){?>class="active"<?php }?>> <a href="send_notification.php">
           <div class="icon"> <i class="fa fa-bell" aria-hidden="true"></i> </div>
-          <div class="title">Notification</div>
+          <div class="title">Pemberitahuan</div>
           </a> 
         </li>
        
         <li <?php if($currentFile=="settings.php"){?>class="active"<?php }?>> <a href="settings.php">
           <div class="icon"> <i class="fa fa-cog" aria-hidden="true"></i> </div>
-          <div class="title">Settings</div>
+          <div class="title">Pengaturan</div>
           </a> 
         </li>
 
