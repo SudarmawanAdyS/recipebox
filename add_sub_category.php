@@ -124,7 +124,7 @@
         <div class="card">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title"><?php if(isset($_GET['sub_cat_id'])){?>Edit<?php }else{?>Add<?php }?> Sub Category</div>
+              <div class="page_title"><?php if(isset($_GET['sub_cat_id'])){?>Edit<?php }else{?>Tambah<?php }?> Tipe Sepatu</div>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -146,10 +146,10 @@
               <div class="section">
                 <div class="section-body">
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Category :-</label>
+                    <label class="col-md-3 control-label">Merk Sepatu :-</label>
                     <div class="col-md-6">
                       <select name="cat_id" id="cat_id" class="select2" required>
-                        <option value="">--Select Category--</option>
+                        <option value="">--Pilih Merk Sepatu--</option>
           							<?php
           									while($cat_row=mysqli_fetch_array($cat_result))
           									{
@@ -162,13 +162,13 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Sub Category Name :-</label>
+                    <label class="col-md-3 control-label">Tipe Sepatu :-</label>
                     <div class="col-md-6">
                       <input type="text" name="sub_cat_name" id="sub_cat_name" value="<?php if(isset($_GET['sub_cat_id'])){echo $row['sub_cat_name'];}?>" class="form-control" required>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Select Image :-</label>
+                    <label class="col-md-3 control-label">Gambar :-</label>
                     <div class="col-md-6">
                       <div class="fileupload_block">
                         <input type="file" name="sub_cat_image" value="" id="fileupload">
@@ -192,7 +192,7 @@
                   </div><br>
                   <div class="form-group">
                     <div class="col-md-9 col-md-offset-3">
-                      <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                      <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
                     </div>
                   </div>
                 </div>
