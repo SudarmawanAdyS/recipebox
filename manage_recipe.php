@@ -124,7 +124,7 @@ if(isset($_GET['status_active_id']))
         <div class="card mrg_bottom">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title">Manage Recipe</div>
+              <div class="page_title">Semua Pesanan</div>
             </div>
             <div class="col-md-7 col-xs-12">
               <div class="search_list">
@@ -134,7 +134,7 @@ if(isset($_GET['status_active_id']))
                         <button type="submit" name="recipe_search" class="btn-search"><i class="fa fa-search"></i></button>
                       </form>  
                  </div>
-                <div class="add_btn_primary"> <a href="add_recipe.php">Add Recipe</a> </div>
+                <div class="add_btn_primary"> <a href="add_recipe.php">Tambah Pesanan</a> </div>
               </div>
             </div>
           </div>
