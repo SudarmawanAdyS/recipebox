@@ -109,7 +109,7 @@ if(isset($_GET['status_active_id']))
         <div class="card mrg_bottom">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title">Manage Categories</div>
+              <div class="page_title">Semua Merk Sepatu</div>
             </div>
             <div class="col-md-7 col-xs-12">
               <div class="search_list">
@@ -119,7 +119,7 @@ if(isset($_GET['status_active_id']))
                         <button type="submit" name="data_search" class="btn-search"><i class="fa fa-search"></i></button>
                   </form>  
                 </div>
-                <div class="add_btn_primary"> <a href="add_category.php?add=yes">Add Category</a> </div>
+                <div class="add_btn_primary"> <a href="add_category.php?add=yes">Tambah Merk Sepatu</a> </div>
               </div>
             </div>
           </div>
