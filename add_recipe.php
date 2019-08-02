@@ -217,7 +217,18 @@ $(document).ready(function(e) {
                     </div>
                   </div><br>
 
+       
+                  
 
+                  <div id="thumbnail" class="form-group">
+                    <label class="col-md-3 control-label">Gambar:-</label>
+                    <div class="col-md-6">
+                      <div class="fileupload_block">
+                        <input type="file" name="recipe_image" value="" id="fileupload">
+                       <div class="fileupload_img"><img type="image" src="assets/images/add-image.png" alt="category image" /></div>
+                      </div>
+                    </div>
+                  </div>
  
                   <div class="form-group">
                     <div class="col-md-9 col-md-offset-3">
