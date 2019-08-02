@@ -136,7 +136,7 @@
         <div class="card">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title"><?php if(isset($_GET['cat_id'])){?>Edit<?php }else{?>Add<?php }?> Category</div>
+              <div class="page_title"><?php if(isset($_GET['cat_id'])){?>Edit<?php }else{?>Tambah<?php }?> Merk</div>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -158,7 +158,7 @@
               <div class="section">
                 <div class="section-body">
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Category Name :-
+                    <label class="col-md-3 control-label">Merk Sepatu :-
                     
                     </label>
                     <div class="col-md-6">
@@ -166,8 +166,8 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Category Icon Image :-
-                      <p class="control-label-help">(Recommended resolution: 100*100,150*150 ,200*200)</p>
+                    <label class="col-md-3 control-label">Gambar Icon  :-
+                      <p class="control-label-help">(Disarankan resolusi: 100*100,150*150 ,200*200)</p>
                     </label>
                     <div class="col-md-6">
                       <div class="fileupload_block">
@@ -184,8 +184,8 @@
                   </div>
                   
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Category Image :-
-                      <p class="control-label-help">(Recommended resolution: 300*300,400*400 or Square Image)</p>
+                    <label class="col-md-3 control-label">Gambar Full :-
+                      <p class="control-label-help">(Disarankan resolusi: 300*300,400*400 atau gambar berbentuk kotak)</p>
                     </label>
                     <div class="col-md-6">
                       <div class="fileupload_block">
@@ -206,7 +206,7 @@
                   </div><br>
                   <div class="form-group">
                     <div class="col-md-9 col-md-offset-3">
-                      <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                      <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
                     </div>
                   </div>
                 </div>
