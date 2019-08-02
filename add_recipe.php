@@ -132,7 +132,7 @@ $(document).ready(function(e) {
         <div class="card">
           <div class="page_title_block">
             <div class="col-md-5 col-xs-12">
-              <div class="page_title">Add Recipe</div>
+              <div class="page_title">Tambah Pesanan</div>
             </div>
           </div>
           <div class="clearfix"></div>
@@ -217,27 +217,11 @@ $(document).ready(function(e) {
                     </div>
                   </div><br>
 
-                  <div id="video_url_display" class="form-group" style="display:none;">
-                    <label class="col-md-3 control-label">Video URL :-</label>
-                    <div class="col-md-6">
-                      <input type="text" name="video_url" id="video_url" value="" class="form-control">
-                    </div>
-                  </div>
-                  
 
-                  <div id="thumbnail" class="form-group">
-                    <label class="col-md-3 control-label">Featured Image:-</label>
-                    <div class="col-md-6">
-                      <div class="fileupload_block">
-                        <input type="file" name="recipe_image" value="" id="fileupload">
-                       <div class="fileupload_img"><img type="image" src="assets/images/add-image.png" alt="category image" /></div>
-                      </div>
-                    </div>
-                  </div>
  
                   <div class="form-group">
                     <div class="col-md-9 col-md-offset-3">
-                      <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                      <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
                     </div>
                   </div>
                 </div>
